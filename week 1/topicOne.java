@@ -41,7 +41,13 @@ public class topicone {
         System.out.println(b);
 
         //q5
-        
+        int money = 5000;
+        int onclothes = 1250;
+        int ontravel = 400;
+        int onfood = 800;
+
+        int remainingmoney = money - (onclothes + ontravel + onfood);
+        System.out.println("Remaining money: " + remainingmoney);
     }
 }
 
