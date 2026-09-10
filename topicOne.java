@@ -108,6 +108,123 @@ public class topicOne {
         boolean hasID = true;
 
         System.out.println(agee >= 18 && hasID);
-    }
-}
+
+
+    // practice q1 - day 2
+    int g = 25;
+    int h = 4;
+   
+    System.out.println(g + h); // 29
+    System.out.println(g - h); // 21
+    System.out.println(g * h); // 100
+    System.out.println(g / h); // 6
+    System.out.println(g % h); // 1
+   
+    // practice q2 
+
+    int maths = 85;
+    int sst = 78;
+    int java = 92;
+
+    int totalMarks = maths + sst + java;
+    double averageMarks = totalMarks / 3.0;
+
+    System.out.println("Total Marks: " + totalMarks);
+    System.out.println("Average Marks: " + averageMarks);
+
+    // practice q3
+    int i = 15;
+    int j = 20;
+
+    System.out.println(i > j);  // false
+    System.out.println(i < j);  // true 
+    System.out.println(i >= j); // false
+    System.out.println(i <= j); // true
+
+    // practice q4
+    int ageee = 20;
+    boolean hasLicense = true;
+
+    System.out.println(ageee >= 18 && hasLicense); // true
+     
+    boolean haslicense = false;
+    System.out.println(ageee >= 18 && haslicense); // false
+
+
+    // Day 3 — if, else if, else
+
+
+        // pactice q1
+        int agge = 93;
+        
+        if (agge >= 18) {
+            System.out.println("Adult");
+        } else{
+            System.out.println("Minor");
+        }
+
+        // practice q2
+
+        int num = 15;
+         
+        if (num % 2 == 0) {
+            System.out.println(num + " is even");
+        } else {
+            System.out.println(num + " is odd");
+        }
+
+        // practice q3
+
+        int number = -5;
+
+        if (number > 0) {
+            System.out.println(number + " is positive");
+        } else if (number < 0) {
+            System.out.println(number + " is negative");
+        } else {
+            System.out.println(number + " is zero");
+        }
+
+        // practice q4
+
+        int markss = 85;
+
+        if (markss >= 90) {
+            System.out.println("Grade: A");
+        } else if (markss >= 80) {
+            System.out.println("Grade: B");
+        } else if (markss >= 70) {
+            System.out.println("Grade: C");
+        } else if (markss  >= 60) {
+            System.out.println("Grade: D");
+        } else {
+            System.out.println("Grade: F");
+        }
+
+        // practice q5
+
+        int numberro = 7;
+        int numberrt = 12;
+
+        if (numberro > numberrt) {
+            System.out.println(numberro + " is greater than " + numberrt);
+        } else if (numberro < numberrt) {
+            System.out.println(numberro + " is less than " + numberrt);
+        } else {
+            System.out.println(numberro + " is equal to " + numberrt);
+        }
+
+        // practice q6
+        int attendancee = 82;
+        boolean feesPaidd = true;
+
+        if (attendancee >= 75 && feesPaidd) {
+            System.out.println("Eligible to sit for the exam");
+        } else {
+            System.out.println("Not eligible to sit for the exam");
+        }
+
+        
+}}
+
 
